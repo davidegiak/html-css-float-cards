@@ -36,6 +36,12 @@ header {
     padding: 10px;
 }
 
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 
 .caption-container {
     background: white;
@@ -73,4 +79,21 @@ header {
 
 .down {
     margin-top: 20px;
+}
+
+a {
+    margin-left: 48%;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #0f0e17;
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+a:hover {
+    letter-spacing: 0.25em;
 }
