@@ -1,0 +1,76 @@
+/* default settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+
+header {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.title {
+    font-weight: bolder;
+    margin-bottom: 50px;
+    color: #e53170;
+}
+
+.paragraf{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+/* MAIN */
+
+.container {
+    background-color: white;
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.caption-container {
+    background: white;
+    width: 33%;
+    padding: 10px;
+    float: left;
+}
+
+.caption {
+    background-color: #0f0e17;
+    width: 100%;
+    color: white;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.description {
+    float: left;
+    margin-left: 10px;
+}
+
+.caption::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mail {
+    color: #4dcceb;
+}
+
+.down {
+    margin-top: 10px;
+}
