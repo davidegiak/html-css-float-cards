@@ -31,7 +31,6 @@ header {
 .container {
     background-color: white;
     width: 70%;
-    height: 50px;
     margin: auto;
     padding: 10px;
 }
@@ -79,6 +78,7 @@ header {
 
 .down {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a {
