@@ -91,7 +91,7 @@ header {
 }
 
 .button {
-    margin-left: 48%;
+    align-self: center;
     text-decoration: none;
     text-transform: uppercase;
     background: #0f0e17;
@@ -101,6 +101,7 @@ header {
     font-weight: 400;
     padding: 10px 30px;
     transition: 0.5s;
+
 }
 
 .button:hover {
