@@ -44,7 +44,7 @@ header {
 
 .caption-container {
     background: white;
-    width: 33%;
+    width: calc(100% / 3);
     padding: 10px;
     float: left;
 }
@@ -53,6 +53,13 @@ header {
     background-color: #0f0e17;
     width: 100%;
     color: white;
+    box-shadow: 0px 0px 10px #0f0e17;
+}
+
+.caption::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .img {
@@ -66,22 +73,24 @@ header {
     margin-left: 10px;
 }
 
-.caption::after {
-    content: "";
-    display: block;
-    clear: both;
-}
 
 .mail {
     color: #4dcceb;
+    text-decoration: none;
+}
+
+.mail:hover {
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px white;
+    transition: 0.5s;
 }
 
 .down {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
-a {
+.button {
     margin-left: 48%;
     text-decoration: none;
     text-transform: uppercase;
@@ -94,6 +103,7 @@ a {
     transition: 0.5s;
 }
 
-a:hover {
+.button:hover {
     letter-spacing: 0.25em;
+    box-shadow: 0 0 10px #0f0e17;
 }
